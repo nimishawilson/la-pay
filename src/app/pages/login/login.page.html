@@ -1,0 +1,25 @@
+<ion-content class="ion-padding ion-margin">
+  <ion-grid>
+    <ion-row class="ion-justify-content-center ion-align-items-center top-spacer">
+      <ion-img src="assets/umbrella.png"></ion-img>
+    </ion-row>
+    <ion-col size="4" offset="4">
+      <ion-item class="ion-justify-content-center ion-align-items-center">
+        <ion-input class="ion-text-center" placeholder="USER NAME"></ion-input>
+      </ion-item>
+      <ion-item class="ion-justify-content-center ion-align-items-center">
+        <ion-input type="password" class="ion-text-center" placeholder="PASSWORD"></ion-input>
+      </ion-item>
+    </ion-col>
+    <ion-row>
+      <ion-col size="6" offset="3">
+        <ion-button (click)="login()" shape="round" expand="full" color="primary">log in</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer class="ion-no-border">
+  <ion-row class="ion-justify-content-center ion-align-items-center">
+    <ion-img src="assets/pay.png"></ion-img>
+  </ion-row>
+</ion-footer>

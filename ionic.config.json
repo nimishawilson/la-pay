@@ -1,0 +1,7 @@
+{
+  "name": "la-pay-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

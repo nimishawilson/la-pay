@@ -1,0 +1,118 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+      <ion-title>Hi, Sandeep <br> 893xxxxx89</ion-title>
+      <ion-item>
+        <ion-img slot="end" src="assets/pay.png"></ion-img>
+      </ion-item>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card color="primary" class="main-card">
+    <ion-card-content>
+      <ion-row class="ion-justify-content-between">
+        <ion-col class="ion-text-center">
+          <ion-icon name="cart-outline"></ion-icon> RESELLER
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-icon name="cash-outline"></ion-icon> DISCOUNT
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-icon name="share-social-outline"></ion-icon> SHARE EARN
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="center-card">
+    <ion-card-content>
+      <ion-row>
+        <ion-col class="ion-text-center">
+          <ion-icon color="primary" name="phone-portrait-outline"></ion-icon> <br> MOBILE PREPAID
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-icon color="primary" name="phone-portrait-outline"></ion-icon> <br> MOBILE POSTPAID
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-icon color="primary" name="call-outline"></ion-icon> <br> LANDLINE/ BROADBAND
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-icon color="primary" name="earth-outline"></ion-icon> <br> SATELLITE
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="ion-text-center">
+          <ion-icon color="primary" name="business-outline"></ion-icon> <br> HOTELS
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-icon color="primary" name="airplane-outline"></ion-icon> <br> FLIGHTS
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-icon color="primary" name="bus-outline"></ion-icon> <br> BUS
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-icon color="primary" name="logo-bitcoin"></ion-icon> <br> GOLD
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="ion-text-center">
+          <ion-icon color="primary" name="logo-sass"></ion-icon>
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-icon color="primary" name="logo-pwa"></ion-icon>
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-icon color="primary" name="umbrella-outline"></ion-icon> <br> INSURANCE
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-icon color="primary" name="wallet-outline"></ion-icon> <br> TICKETS
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-item>
+    <ion-img src="assets/banner1.jpg"></ion-img>
+  </ion-item>
+  <ion-item>
+    <ion-img src="assets/banner2.jpg"></ion-img>
+  </ion-item>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-tabs (click)="dailyExpense()">
+
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button >
+          <ion-icon color="secondary" name="home-outline"></ion-icon>
+          <ion-label>Home</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button>
+          <ion-icon color="secondary" name="book-outline"></ion-icon>
+          <ion-label>Daily expenses</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button>
+          <ion-icon color="secondary" name="grid-outline"></ion-icon>
+          <ion-label>More</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button>
+          <ion-icon color="secondary" name="notifications-outline"></ion-icon>
+          <ion-label>Search notification</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button>
+          <ion-icon color="secondary" name="mail-outline"></ion-icon>
+          <ion-label>Message</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+
+    </ion-tabs>
+  </ion-toolbar>
+</ion-footer>

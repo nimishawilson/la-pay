@@ -1,0 +1,29 @@
+.main-card ion-icon {
+  font-size: 64px;
+  --ionicon-stroke-width: 20px;
+}
+
+.center-card {
+  ion-row {
+    padding-top: 1vh;
+  }
+  ion-col {
+    font-size: x-small;
+  }
+
+  ion-icon {
+    font-size: 32px;
+    --ionicon-stroke-width: 20px;
+  }
+}
+ion-img {
+  max-width: 100%;
+  max-height: 12vh;
+}
+ion-card {
+  border-radius: 10px;
+  box-shadow: none;
+}
+ion-menu-button {
+    font-size: xx-large;
+  }

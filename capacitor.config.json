@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "la-pay-app",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
